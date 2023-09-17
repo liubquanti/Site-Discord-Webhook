@@ -7,7 +7,7 @@ function openDialog() {
 }
 
 function sendDataToDiscord(data) {
-    var webhookURL = "https://discord.com/api/webhooks/1153049281138282616/DkxqZUV9tunX89UraLZMNsjdV05XzQNzo0ohIM4h7V-_ePm9pa6cHYGUfh0B1OubJMXw"; // Замініть на свій webhook URL
+    var webhookURL = ""; // Замініть на свій webhook URL
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", webhookURL, true);
