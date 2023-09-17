@@ -7,7 +7,7 @@ function openDialog() {
 }
 
 function sendDataToDiscord(data) {
-    var webhookURL = "пп"; // Замініть на свій webhook URL
+    var webhookURL = ""; // Замініть на свій webhook URL
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", webhookURL, true);
